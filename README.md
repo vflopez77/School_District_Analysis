@@ -19,6 +19,6 @@ Additionally, they want to know how the overall analysis is affected by omitting
 - School performance based on the type of school (District or Charter)
 
 ## Effect of Data Exclusion
-District Summary Report:
+District Summary Report:<br>
 <img src=/Resources/District_Summary_Before.png></img><br>
 <img src=/Resources/District_Summary_After.png></img>
