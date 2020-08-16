@@ -19,6 +19,9 @@ Additionally, they want to know how the overall analysis is affected by omitting
 - School performance based on the type of school (District or Charter)
 
 ## Effect of Data Exclusion
-District Summary Report:<br>
+District Summary Report Before:<br>
 <img src=/Resources/District_Summary_Before.png></img><br>
-<img src=/Resources/District_Summary_After.png></img>
+District Summary Report After:<br>
+<img src=/Resources/District_Summary_After.png></img><br>
+
+The District Summary Report showed a lower average math score (78.9 vs 79.0) after the change in the data.
