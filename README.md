@@ -36,6 +36,6 @@ The District Summary Report showed a lower average math score (78.9 vs 79.0) aft
 The School Summary Report showed a lower average math score, higher average reading score, lower passing math percentage, lower passing reading percentage, and lower overall passing percentage after the change in the data.
 ### Scores by Grade
 <b>Math Scores by Grade Before:<b><br>
-  <img src=/Resources/Math_Scores_by_Grade.png></img><br>
+<img src=/Resources/Math_Scores_by_Grade.png></img><br>
 <b>Math Scores by Grade After:<b><br>
-  <img src=/Resources/Math_Scores_by_Grade.png></img><br>
+<img src=/Resources/Math_Scores_by_Grade.png></img><br>
