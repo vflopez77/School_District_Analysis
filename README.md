@@ -21,26 +21,45 @@ Additionally, they want to know how the overall analysis is affected by omitting
 ## Effect of Data Exclusion
 ### District Summary Report
 <b>District Summary Report Before:</b><br>
-<img src=/Resources/District_Summary_Before.png></img><br>
+  <img src=/Resources/District_Summary_Before.png></img><br>
 <b>District Summary Report After:</b><br>
-<img src=/Resources/District_Summary_After.png></img><br>
+  <img src=/Resources/District_Summary_After.png></img><br>
 
 The District Summary Report showed a lower average math score (78.9 vs 79.0) after the change in the data.<br>
 
 ### School Summary Report
 <b>School Summary Report Before:</b><br>
-<img src=/Resources/School_Summary_Before.png></img><br>
+  <img src=/Resources/School_Summary_Before.png></img><br>
 <b>School Summary Report After:</b><br>
-<img src=/Resources/School_Summary_After.png></img><br>
+  <img src=/Resources/School_Summary_After.png></img><br>
 
 The School Summary Report showed a lower average math score, higher average reading score, lower passing math percentage, lower passing reading percentage, and lower overall passing percentage after the change in the data.
 ### Scores by Grade
 <b>Math Scores by Grade Before:<b><br>
-<img src=/Resources/Math_Scores_by_Grade_Before.png></img><br>
+  <img src=/Resources/Math_Scores_by_Grade_Before.png></img><br>
 <b>Math Scores by Grade After:<b><br>
-<img src=/Resources/Math_Scores_by_Grade_After.png></img><br>
+  <img src=/Resources/Math_Scores_by_Grade_After.png></img><br>
 <b>Reading Scores by Grade Before:<b><br>
   <img src=/Resources/Reading_Scores_by_Grade_Before.png></img><br>
   <img src=/Resources/Reading_Scores_by_Grade_After.png></img><br>
 
 As expected, there are no 9th grade scores for Thomas High School in the changed data.
+
+### Scores by Spending Per Student
+<b>Spending Summary Before:<b><br>
+  <img src=/Resources/Spending_Summary_Before.png></img><br>
+<b>Spending Summary After:<b><br>
+  <img src=/Resources/Spending_Summary_After.png>/<img><br>
+  
+### Scores by Spending by School Size
+<b>Size Summary Before:<b><br>
+  <img src=/Resources/Size_Summary_Before.png></img><br>
+<b>Size Summary After:<b><br>
+  <img src=/Resources/Size_Summary_After.png>/<img><br>
+  
+### Scores by School Type
+<b>Size Summary Before:<b><br>
+  <img src=/Resources/Type_Summary_Before.png></img><br>
+<b>Size Summary After:<b><br>
+  <img src=/Resources/Type_Summary_After.png>/<img><br>
+  
