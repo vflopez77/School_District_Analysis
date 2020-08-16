@@ -42,3 +42,5 @@ The School Summary Report showed a lower average math score, higher average read
 <b>Reading Scores by Grade Before:<b><br>
   <img src=/Resources/Reading_Scores_by_Grade_Before.png></img><br>
   <img src=/Resources/Reading_Scores_by_Grade_After.png></img><br>
+
+As expected, there are no 9th grade scores for Thomas High School in the changed data.
