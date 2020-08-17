@@ -76,7 +76,7 @@ The scores and percentages, except for reading average, are slightly lower after
 The scores and percentages, except for reading average, are slightly lower after the data change for the Charter School Type.
 
 ### Methodology
-Two files were received, schools_complete.csv and students_complete.csv.<br>
+Two files were received, schools_complete.csv and students_complete.csv and imported into Panda DataFrames.<br>
 ```
 # File to Load
 school_data_to_load = "Resources/schools_complete.csv"
@@ -102,4 +102,9 @@ import numpy as np
 student_data_df.loc[(student_data_df.grade == "9th") & (student_data_df.school_name == "Thomas High School"),["reading_score"]] = np.nan
 student_data_df.loc[(student_data_df.grade == "9th") & (student_data_df.school_name == "Thomas High School"),["math_score"]] = np.nan``
 ```
-
+The DataFrames containg the data from the two files were combined to facilitate the rest of the analysis
+```
+# Combine the data into a single dataset
+school_data_complete_df = pd.merge(student_data_df, school_data_df, how="left", on=["school_name", "school_name"])
+```
+### Conclusions
