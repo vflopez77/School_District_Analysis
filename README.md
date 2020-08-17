@@ -34,6 +34,15 @@ The District Summary Report showed a lower average math score (78.9 vs 79.0) aft
   <img src=/Resources/School_Summary_After.png></img><br>
 
 The School Summary Report showed a lower average math score, higher average reading score, lower passing math percentage, lower passing reading percentage, and lower overall passing percentage after the change in the data.
+
+### Top 5 Schools
+<b>Top 5 Schools Before:</b><br>
+<img src=/Resources/Top_Schools_Before.png></img><br>
+<b>Top 5 Schools After:</b><br>
+<img src=/Resources/Top_Schools_After.png></img><br>
+
+Thomas High School's overall passing percentage has decreeased, but it retains the #2 position on the Top Five list.
+
 ### Scores by Grade
 <b>Math Scores by Grade Before:<b><br>
   <img src=/Resources/Math_Scores_by_Grade_Before.png></img><br>
@@ -65,3 +74,4 @@ The scores and percentages, except for reading average, are slightly lower after
 <b>Size Summary After:<b><br>
   <img src=/Resources/Type_Summary_After.png>/<img><br>
 The scores and percentages, except for reading average, are slightly lower after the data change for the Charter School Type.
+
