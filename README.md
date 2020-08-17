@@ -43,6 +43,14 @@ The School Summary Report showed a lower average math score, higher average read
 
 Thomas High School's overall passing percentage has decreeased, but it retains the #2 position on the Top Five list.
 
+### Bottom 5 Schools
+<b>Bottom 5 Schools Before:</b><br>
+<img src=/Resources/Bottom_Schools_Before.png></img><br>
+<b>Bottom 5 Schools After:</b><br>
+<img src=/Resources/Bottom_Schools_After.png></img><br>
+
+The Bottom Five list was unaffected.
+
 ### Scores by Grade
 <b>Math Scores by Grade Before:<b><br>
   <img src=/Resources/Math_Scores_by_Grade_Before.png></img><br>
