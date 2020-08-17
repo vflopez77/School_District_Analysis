@@ -107,4 +107,13 @@ The DataFrames containg the data from the two files were combined to facilitate 
 # Combine the data into a single dataset
 school_data_complete_df = pd.merge(student_data_df, school_data_df, how="left", on=["school_name", "school_name"])
 ```
-### Conclusions
+<b>Note: Complete confidentiality of the studens' data was maintained in accordance with FERPA (Family Educational Rights and Privacy Act).</b>
+
+### Conclusions<br>
+After the omission of the 9th grade data from Thomas High School, the following was noted across all observations:
+- The Average Math Score was lower
+- The Passing Math Percentage was lower
+- The Passing Reading Percentage was lower
+- The Overall Passing Percentage was lower<br>
+
+Since it is unlikely that this one class would normally have grades high enough to skew the grades so consistently, the School Board is encuraged to not include these grades in their official report
