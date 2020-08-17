@@ -75,3 +75,31 @@ The scores and percentages, except for reading average, are slightly lower after
   <img src=/Resources/Type_Summary_After.png>/<img><br>
 The scores and percentages, except for reading average, are slightly lower after the data change for the Charter School Type.
 
+### Methodology
+Two files were received, schools_complete.csv and students_complete.csv.<br>
+```
+# File to Load
+school_data_to_load = "Resources/schools_complete.csv"
+student_data_to_load = "Resources/students_complete.csv"
+
+# Read the School Data and Student Data and store into a Pandas DataFrame
+school_data_df = pd.read_csv(school_data_to_load)
+student_data_df = pd.read_csv(student_data_to_load)``
+```
+The student names were cleaned up to remove extraneous prefixes and suffixes
+```
+# Cleaning Student Names and Replacing Substrings in a Python String
+# Add each prefix and suffix to remove to a list.
+prefixes_suffixes = ["Dr. ", "Mr. ","Ms. ", "Mrs. ", "Miss ", " MD", " DDS", " DVM", " PhD"]
+
+# Iterate through the words in the "prefixes_suffixes" list and replace them with an empty space, "".
+for word in prefixes_suffixes:
+    student_data_df["student_name"] = student_data_df["student_name"].str.replace(word,"")``
+```
+The 9th grade scores from Thomas High School were changed to NaN (Not a Number) using the Numpy library so that they will be ignored.
+```
+import numpy as np
+student_data_df.loc[(student_data_df.grade == "9th") & (student_data_df.school_name == "Thomas High School"),["reading_score"]] = np.nan
+student_data_df.loc[(student_data_df.grade == "9th") & (student_data_df.school_name == "Thomas High School"),["math_score"]] = np.nan``
+```
+
