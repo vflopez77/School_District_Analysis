@@ -5,7 +5,7 @@ The School Board wanted summary data reported for their district and provided sc
 We have provided the analysis of the data to their specifications.<br><br>
 Subsequently, they have discovered that the 9th grade scores for one school, Thomas High School, are suspect.<br>
 The School Board wants to have the analysis redone, excluding these scores. <br>
-Additionally, they want to know how the overall analysis is affected by omitting the dubious scores.<br><br>
+Additionally, they want to know how the overall analysis is affected by omitting the dubious scores.<br>
 
 ### The analysis of the School District Data included these elements:
 - A District Summary
@@ -116,7 +116,7 @@ The DataFrames containg the data from the two files were combined to facilitate 
 school_data_complete_df = pd.merge(student_data_df, school_data_df, how="left", on=["school_name", "school_name"])
 ```
 <br>
-<b>Note: Complete confidentiality of the studens' data was maintained in accordance with FERPA (Family Educational Rights and Privacy Act).</b>
+<b>Note: Complete confidentiality of the students' data was maintained in accordance with FERPA (Family Educational Rights and Privacy Act).</b>
 
 ### Conclusions<br>
 After the omission of the 9th grade data from Thomas High School, the following was noted across all observations:
