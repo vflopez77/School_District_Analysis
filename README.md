@@ -50,16 +50,18 @@ As expected, there are no 9th grade scores for Thomas High School in the changed
   <img src=/Resources/Spending_Summary_Before.png></img><br>
 <b>Spending Summary After:<b><br>
   <img src=/Resources/Spending_Summary_After.png>/<img><br>
+The scores and percentages, except for reading average, are slightly lower after the data change for the $630-$644 range.
   
 ### Scores by Spending by School Size
 <b>Size Summary Before:<b><br>
   <img src=/Resources/Size_Summary_Before.png></img><br>
 <b>Size Summary After:<b><br>
   <img src=/Resources/Size_Summary_After.png>/<img><br>
+The scores and percentages, except for reading average, are slightly lower after the data change for the Medium (1000-2000) range.
   
 ### Scores by School Type
 <b>Size Summary Before:<b><br>
   <img src=/Resources/Type_Summary_Before.png></img><br>
 <b>Size Summary After:<b><br>
   <img src=/Resources/Type_Summary_After.png>/<img><br>
-  
+The scores and percentages, except for reading average, are slightly lower after the data change for the Charter School Type.
